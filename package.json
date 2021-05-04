@@ -1,7 +1,7 @@
 {
   "name": "ts-lab-1",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Initial Setup Follow the steps in the slides to set up a TypeScript project and to add tests with Jest. But note that you should *skip the folling steps* that are already done for this project.",
   "main": "src/index.ts",
   "scripts": {
     "build": "tsc",
@@ -11,5 +11,20 @@
     "test:dev": "jest --watch"
   },
   "author": "Grand Circus Detroit",
-  "license": "ISC"
+  "license": "ISC",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gc-submissions/typescript-lab-1-anneliese-sparks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gc-submissions/typescript-lab-1-anneliese-sparks/issues"
+  },
+  "homepage": "https://github.com/gc-submissions/typescript-lab-1-anneliese-sparks#readme",
+  "devDependencies": {
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  }
 }
